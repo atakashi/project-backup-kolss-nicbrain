@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">NICBRAIN</string>
+    <string name="app_text">NICBRAIN Segurança&#8230;</string>
+    <string name="action_settings">Preferências</string>
+    
+    <string name="drawer_open">NicBrain Aberto</string>
+    <string name="drawer_close">NicBrain Fechado</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Ocorrências</item>
+        <item>CheckLists</item>
+        <item>Pendências de ocorrências</item>
+        <item>Telefones úteis</item>
+        <item>Câmeras</item>
+        <item>Sair</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_ocorrencias</item>
+        <item>@drawable/ic_check_lists</item>
+        <item>@drawable/ic_pendencias_ocorrencias</item>
+        <item>@drawable/ic_telefones_uteis</item>
+        <item>@drawable/ic_cameras</item>
+        <item>@drawable/ic_sair</item>
+	</array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <!-- ... -->
+    <string name="btnBriga">Briga</string>
+    <string name="btnAlarme">Alarme</string>
+    <string name="btnFogo">Fogo</string>
+    <string name="btnTumulto">Tumulto</string>
+    <string name="btnRoubo">Roubo</string>
+    <string name="btnAgua">Água</string>
+    <string name="btnFerido">Ferido</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="ok">OK</string>
+    <string name="procedimento">Procedimentos</string>
+    <string name="btnChecklist">CHECKLIST</string>
+    <string name="btnOcorrencia">OCORRENCIA</string>
+    
+    <!-- Activity Titles -->
+    <string name="ActivityNICBrainTitle">NicBrain</string>
+    <string name="ActivityEscolhaTitle">Menu</string>
+    <string name="ActivityComentarioTitle">Comentários</string>
+    <string name="ActivityBrigaTitle">Briga</string>
+    <string name="ActivityAlarmeTitle">Alarme</string>
+    <string name="ActivityFogoTitle">Fogo</string>
+    <string name="ActivityTumultoTitle">Tumulto</string>
+    <string name="ActivityRouboTitle">Roubo</string>
+    <string name="ActivityAguaTitle">Água</string>
+    <string name="ActivityFeridoTitle">Ferido</string>
+    <string name="ActivityObservacaoTitle">Observação</string>
+    <string name="ActivityOcorrenciaTitle">Ocorrências</string>
+    
+    <!-- color -->
+ 	<color name="snow">#eee9e9</color>
+    
+    <string name="logo">Logo</string>
+    <string name="splash_message">Aguarde carregando&#8230;</string>
+
+    <string name="txtLogin">Login</string>
+    <string name="usuario">Usuário: </string>
+    <string name="senha">Senha: </string>
+    <string name="acessar">Acessar</string>
+    <string name="usuario_senha_incorreto">Usuário ou Senha incorreto!</string>
+    
+    <string name="sairsistema">Deseja sair do Sistema?</string>
+    <string name="sim">Sim</string>
+	<string name="nao">Não</string>
+    
+	<string name="txtNroTelefoneUtil">Número</string>
+	<string name="txtNomeTelefoneUtil">Nome</string>
+	
+	<string name="conexao_servidor">Não há conexão com o servidor&#8230;</string>
+</resources>

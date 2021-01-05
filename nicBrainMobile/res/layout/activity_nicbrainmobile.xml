@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" />
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/activity_nicbrainmobile_btn_briga"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityBrigaTitle"
+            android:drawableTop="@drawable/logo_briga"/>
+        <Button android:id="@+id/activity_nicbrainmobile_btn_alarme"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityAlarmeTitle"
+            android:drawableTop="@drawable/logo_alarme"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/activity_nicbrainmobile_btn_fogo"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityFogoTitle"
+            android:drawableTop="@drawable/logo_fogo"/>
+        <Button android:id="@+id/activity_nicbrainmobile_btn_tumulto"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityTumultoTitle"
+            android:drawableTop="@drawable/logo_tumulto"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/activity_nicbrainmobile_btn_roubo"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityRouboTitle"
+            android:drawableTop="@drawable/logo_roubo"/>
+        <Button android:id="@+id/activity_nicbrainmobile_btn_agua"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityAguaTitle"
+            android:drawableTop="@drawable/logo_agua"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/activity_nicbrainmobile_btn_ferido"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityFeridoTitle"
+            android:drawableTop="@drawable/logo_ferido"/>
+        <!--<Button android:id="@+id/activity_nicbrainmobile_btn_ferido"
+            style="@style/NICBrainButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ActivityFeridoTitle"
+            android:drawableTop="@drawable/android_logo_ferido"/>-->
+    </LinearLayout>
+    
+</LinearLayout>
+
+</LinearLayout>

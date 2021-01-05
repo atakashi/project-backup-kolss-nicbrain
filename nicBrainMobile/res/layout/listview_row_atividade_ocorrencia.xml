@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical">
+
+
+
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <TextView
+        android:id="@+id/txtNroTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.05"
+        android:gravity="center"
+        android:text="Atividade"
+        android:textSize="15sp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNomeTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.32"
+        android:gravity="left|center"
+        android:text="Data Inicial"
+        android:textSize="15sp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="13.96"
+        android:gravity="left|center"
+        android:text="Data Final"
+        android:textSize="15sp" >
+
+    </TextView>
+</LinearLayout>
+</ScrollView>
+
+
+<!--
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtNroTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.86"
+        android:gravity="center"
+        android:text="Atividade"
+        android:textSize="15sp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNomeTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.31"
+        android:gravity="left|center"
+        android:text="Data Inicial"
+        android:textSize="15sp" >
+
+    </TextView>
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Data Final"
+        android:textSize="15sp"
+        android:gravity="left|center"
+        android:layout_weight="3">
+    </TextView>
+</LinearLayout>
+-->

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" />
+
+	<ImageView
+	    android:id="@+id/imgNICBrain"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:background="@drawable/ic_launcher"
+	    android:padding="50dp" />
+		
+    <Button
+        android:id="@+id/btnCheckList"
+        style="@style/CustomStyleButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/btnChecklist"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:id="@+id/btnOcorrencia"
+        style="@style/CustomStyleButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/btnOcorrencia"
+        android:onClick="onButtonClick"/>
+    
+</LinearLayout>

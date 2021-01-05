@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.kolss.nicbrain_formulario"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+
+    <application
+        android:name=".util.NicBrainFormularioApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.ConfigurationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.EventoActivity"
+            android:label="@string/title_activity_evento" >
+        </activity>
+        <activity
+            android:name=".activity.ChecklistActivity"
+            android:label="@string/title_activity_checklist" >
+        </activity>
+        <activity
+            android:name=".activity.DetalhesChecklistActivity"
+            android:label="@string/title_activity_detalhes_checklist" >
+        </activity>
+        <activity
+            android:name="br.com.kolss.nicbrain_formulario.activity.FormularioActivity"
+            android:label="@string/title_activity_formulario" >
+        </activity>
+        <activity
+            android:name="br.com.kolss.nicbrain_formulario.activity.PerguntaFormularioActivity"
+            android:label="@string/title_activity_pergunta_formulario" >
+        </activity>
+    </application>
+
+</manifest>

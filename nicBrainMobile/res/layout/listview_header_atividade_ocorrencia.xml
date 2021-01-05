@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical">
+
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="502dp"
+    android:layout_height="wrap_content"
+    android:background="@color/custom_button"
+    android:clickable="false" >
+
+    <TextView
+        android:id="@+id/txtNroTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.05"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="Atividade"
+        android:textSize="15sp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNomeTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.32"
+        android:clickable="false"
+        android:gravity="left|center"
+        android:text="Data Inicial"
+        android:textSize="15sp" >
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtDtFin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Data Final"
+        android:textSize="15sp"
+        android:gravity="left|center"
+        android:clickable="false">
+    </TextView>
+</LinearLayout>
+</ScrollView>
+
+<!--
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/custom_button"
+    android:clickable="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtNroTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNroTelefoneUtil"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:clickable="false"
+        android:layout_weight="1">
+    </TextView>
+    <TextView
+        android:id="@+id/txtNomeTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNomeTelefoneUtil"
+        android:textSize="15sp"
+        android:gravity="left|center"
+        android:clickable="false"
+        android:layout_weight="2">
+    </TextView>
+    <TextView
+        android:id="@+id/txtDtFin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNomeTelefoneUtil"
+        android:textSize="15sp"
+        android:gravity="left|center"
+        android:clickable="false"
+        android:layout_weight="2">
+    </TextView>
+</LinearLayout>
+
+-->

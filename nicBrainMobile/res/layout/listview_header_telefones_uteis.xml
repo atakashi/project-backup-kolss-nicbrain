@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/custom_button"
+    android:clickable="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtNroTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNroTelefoneUtil"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:clickable="false"
+        android:layout_weight="1">
+    </TextView>
+    <TextView
+        android:id="@+id/txtNomeTelefoneUtil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNomeTelefoneUtil"
+        android:textSize="15sp"
+        android:gravity="left|center"
+        android:clickable="false"
+        android:layout_weight="2">
+    </TextView>
+</LinearLayout>

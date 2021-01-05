@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.kolss.nicbrainmobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.splashscreen.SplashActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name="br.com.kolss.nicbrainmobile.login.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+
+		<activity
+            android:name="br.com.kolss.nicbrainmobile.slidingmenu.MainActivity"
+            android:label="@string/app_name" >
+		</activity>
+				
+		<activity
+            android:name="br.com.kolss.nicbrainmobile.ActivityNICBrainMobile"
+            android:label="@string/app_name" >
+        </activity>
+        
+		<activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityComentario"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityBriga"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityAlarme"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityFogo"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityTumulto"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityRoubo"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityAgua"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityFerido"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ActivityObservacao"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.ocorrencia.ActivityOcorrencia"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="br.com.kolss.nicbrainmobile.activities.atividadeocorrencia.ActivityAtividadeOcorrencia"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>
